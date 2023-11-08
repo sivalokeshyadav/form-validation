@@ -1,0 +1,28 @@
+.name-container, .email-container, .phone-container{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 5px;
+}
+
+.input{
+    border-radius: 10px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 400px;
+    font-size: 30px;
+}
+
+.next-btn{
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    align-items: right;
+    background-color: darkblue;
+    color: white;
+    border-width: 0;
+    padding: 20px;
+}
